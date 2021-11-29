@@ -759,14 +759,14 @@ footer .redes .logoRedes ul li:hover {
     height: 0;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloBienvenidos, .elEstudio.fondoEncabezadoEstudio .tituloBienvenidos, .trabajos.fondoEncabezadoTrabajos .tituloBienvenidos, .cuidados.fondoEncabezadoCuidados .tituloBienvenidos, .contacto.fondoEncabezadoContacto .tituloBienvenidos {
-    top: 95px;
+    top: 100px;
     text-align: center;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloBienvenidos h1, .elEstudio.fondoEncabezadoEstudio .tituloBienvenidos h1, .trabajos.fondoEncabezadoTrabajos .tituloBienvenidos h1, .cuidados.fondoEncabezadoCuidados .tituloBienvenidos h1, .contacto.fondoEncabezadoContacto .tituloBienvenidos h1 {
     font-size: 29px;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloElEstudio, .elEstudio.fondoEncabezadoEstudio .tituloElEstudio, .trabajos.fondoEncabezadoTrabajos .tituloElEstudio, .cuidados.fondoEncabezadoCuidados .tituloElEstudio, .contacto.fondoEncabezadoContacto .tituloElEstudio {
-    top: 105px;
+    top: 110px;
     text-align: center;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloElEstudio h1, .elEstudio.fondoEncabezadoEstudio .tituloElEstudio h1, .trabajos.fondoEncabezadoTrabajos .tituloElEstudio h1, .cuidados.fondoEncabezadoCuidados .tituloElEstudio h1, .contacto.fondoEncabezadoContacto .tituloElEstudio h1 {
@@ -856,9 +856,11 @@ footer .redes .logoRedes ul li:hover {
     font-size: 32px;
     top: 0;
     text-align: none;
+    left: 75px;
   }
   .pageEstudio .subtituloPageEstudio {
     top: 60px;
+    text-align: center;
   }
   .pageEstudio .textoPageEstudio {
     font-size: 16px;
@@ -899,7 +901,7 @@ footer .redes .logoRedes ul li:hover {
     margin: 30px 0;
   }
   .infoCuidados .imgInfoCuidados {
-    height: 200px;
+    height: 370px;
   }
   .infoContacto p {
     font-size: 16px;

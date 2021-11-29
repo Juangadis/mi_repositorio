@@ -5,7 +5,7 @@
         height: 0;
 
         .tituloBienvenidos {
-            top: 95px;
+            top: 100px;
             text-align: center;
 
             h1 {
@@ -14,7 +14,7 @@
         }
 
         .tituloElEstudio {
-            top: 105px;
+            top: 110px;
             text-align: center;
 
             h1{
@@ -143,10 +143,12 @@
             font-size: 32px;
             top: 0;
             text-align: none;
+            left: 75px;
         }
     
         .subtituloPageEstudio {
             top: 60px;
+            text-align: center;
         }
     
         .textoPageEstudio{
@@ -219,7 +221,7 @@
         }
 
         .imgInfoCuidados {
-            height: 200px;
+            height: 370px;
         }
     }
 
