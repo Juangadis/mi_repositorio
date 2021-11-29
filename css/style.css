@@ -753,4 +753,181 @@ footer .redes .logoRedes ul li:hover {
 }
 
 /* Fin Footer */
+@media screen and (max-width: 480px) {
+  .bienvenidos.fondoEncabezadoIndex, .elEstudio.fondoEncabezadoEstudio, .trabajos.fondoEncabezadoTrabajos, .cuidados.fondoEncabezadoCuidados, .contacto.fondoEncabezadoContacto {
+    padding: 120px;
+    height: 0;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloBienvenidos, .elEstudio.fondoEncabezadoEstudio .tituloBienvenidos, .trabajos.fondoEncabezadoTrabajos .tituloBienvenidos, .cuidados.fondoEncabezadoCuidados .tituloBienvenidos, .contacto.fondoEncabezadoContacto .tituloBienvenidos {
+    top: 95px;
+    text-align: center;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloBienvenidos h1, .elEstudio.fondoEncabezadoEstudio .tituloBienvenidos h1, .trabajos.fondoEncabezadoTrabajos .tituloBienvenidos h1, .cuidados.fondoEncabezadoCuidados .tituloBienvenidos h1, .contacto.fondoEncabezadoContacto .tituloBienvenidos h1 {
+    font-size: 29px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloElEstudio, .elEstudio.fondoEncabezadoEstudio .tituloElEstudio, .trabajos.fondoEncabezadoTrabajos .tituloElEstudio, .cuidados.fondoEncabezadoCuidados .tituloElEstudio, .contacto.fondoEncabezadoContacto .tituloElEstudio {
+    top: 105px;
+    text-align: center;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloElEstudio h1, .elEstudio.fondoEncabezadoEstudio .tituloElEstudio h1, .trabajos.fondoEncabezadoTrabajos .tituloElEstudio h1, .cuidados.fondoEncabezadoCuidados .tituloElEstudio h1, .contacto.fondoEncabezadoContacto .tituloElEstudio h1 {
+    font-size: 29px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloTrabajos, .elEstudio.fondoEncabezadoEstudio .tituloTrabajos, .trabajos.fondoEncabezadoTrabajos .tituloTrabajos, .cuidados.fondoEncabezadoCuidados .tituloTrabajos, .contacto.fondoEncabezadoContacto .tituloTrabajos {
+    top: 135px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloTrabajos h1, .elEstudio.fondoEncabezadoEstudio .tituloTrabajos h1, .trabajos.fondoEncabezadoTrabajos .tituloTrabajos h1, .cuidados.fondoEncabezadoCuidados .tituloTrabajos h1, .contacto.fondoEncabezadoContacto .tituloTrabajos h1 {
+    font-size: 40px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloCuidados, .elEstudio.fondoEncabezadoEstudio .tituloCuidados, .trabajos.fondoEncabezadoTrabajos .tituloCuidados, .cuidados.fondoEncabezadoCuidados .tituloCuidados, .contacto.fondoEncabezadoContacto .tituloCuidados {
+    top: 95px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloCuidados h1, .elEstudio.fondoEncabezadoEstudio .tituloCuidados h1, .trabajos.fondoEncabezadoTrabajos .tituloCuidados h1, .cuidados.fondoEncabezadoCuidados .tituloCuidados h1, .contacto.fondoEncabezadoContacto .tituloCuidados h1 {
+    font-size: 35px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloCuidados .subtituloCuidados h3, .elEstudio.fondoEncabezadoEstudio .tituloCuidados .subtituloCuidados h3, .trabajos.fondoEncabezadoTrabajos .tituloCuidados .subtituloCuidados h3, .cuidados.fondoEncabezadoCuidados .tituloCuidados .subtituloCuidados h3, .contacto.fondoEncabezadoContacto .tituloCuidados .subtituloCuidados h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloContacto, .elEstudio.fondoEncabezadoEstudio .tituloContacto, .trabajos.fondoEncabezadoTrabajos .tituloContacto, .cuidados.fondoEncabezadoCuidados .tituloContacto, .contacto.fondoEncabezadoContacto .tituloContacto {
+    top: 95px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloContacto h1, .elEstudio.fondoEncabezadoEstudio .tituloContacto h1, .trabajos.fondoEncabezadoTrabajos .tituloContacto h1, .cuidados.fondoEncabezadoCuidados .tituloContacto h1, .contacto.fondoEncabezadoContacto .tituloContacto h1 {
+    font-size: 35px;
+  }
+  .indexEstudio .tituloIndexEstudio {
+    margin-top: 0;
+  }
+  .indexEstudio .textoIndexEstudio {
+    text-align: left;
+    font-size: 16px;
+  }
+  .indexEstudio .contenedorImagenIndexEstudio .imagenIndexEstudio {
+    width: 280px;
+  }
+  .indexEstudio .contenedorImagenIndexEstudio p {
+    font-size: 20px;
+    left: 70px;
+  }
+  .indexTrabajos .tituloIndexTrabajo {
+    margin-top: 0;
+  }
+  .indexTrabajos .textoIndexTrabajo {
+    font-size: 16px;
+  }
+  .indexTrabajos .imgGaleriaIndexTrabajo {
+    -webkit-transition: none;
+    transition: none;
+  }
+  .indexTrabajos .imgGaleriaIndexTrabajo:hover {
+    -webkit-transform: none;
+            transform: none;
+    border: none;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 16px;
+  }
+  footer .left p {
+    margin-top: 5px;
+    text-align: center;
+  }
+  footer .redes p {
+    display: none;
+  }
+  footer .redes .logoRedes ul li {
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .pageEstudio .imagenCarrousel {
+    width: 100%;
+    height: 400px;
+  }
+  .pageEstudio .row {
+    position: relative;
+    display: inline-block;
+  }
+  .pageEstudio .row > * {
+    margin-top: 430px;
+  }
+  .pageEstudio .tituloPageEstudio {
+    font-size: 32px;
+    top: 0;
+    text-align: none;
+  }
+  .pageEstudio .subtituloPageEstudio {
+    top: 60px;
+  }
+  .pageEstudio .textoPageEstudio {
+    font-size: 16px;
+    text-align-last: center;
+    width: 92%;
+  }
+  .pageEstudio .nuestroEquipo h4 {
+    margin-top: -440px;
+  }
+  .pageEstudio .nuestroEquipo p {
+    font-size: 16px;
+  }
+  .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo1, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo2, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo3, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo4 {
+    margin-top: -425px;
+  }
+  .pageEstudio .higieneYseguridad .logo {
+    display: none;
+  }
+  .pageEstudio .higieneYseguridad h5 {
+    margin-top: -460px;
+  }
+  .pageEstudio .higieneYseguridad p {
+    font-size: 16px;
+  }
+  .infoBraian .row, .infoGabriel .row, .infoDaiana .row, .infoJuan .row {
+    display: block;
+  }
+  .infoBraian h2, .infoGabriel h2, .infoDaiana h2, .infoJuan h2 {
+    text-align: center;
+  }
+  .infoBraian p, .infoGabriel p, .infoDaiana p, .infoJuan p {
+    font-size: 16px;
+  }
+  .infoCuidados p {
+    font-size: 16px;
+  }
+  .infoCuidados .cajaCuidados {
+    margin: 30px 0;
+  }
+  .infoCuidados .imgInfoCuidados {
+    height: 200px;
+  }
+  .infoContacto p {
+    font-size: 16px;
+  }
+  .infoContacto .cardFormulario {
+    width: 100%;
+  }
+  .infoContacto .cardFormulario form p {
+    font-size: 16px;
+  }
+  .infoContacto .cardFormulario form .formularioContacto {
+    width: auto;
+    font-size: 16px;
+  }
+  .infoContacto .cardFormulario form .casilla {
+    display: block;
+    width: 100%;
+  }
+  .infoContacto .cardFormulario form .recibirInfo {
+    width: auto;
+    font-size: 16px;
+    text-align: center;
+  }
+  .infoContacto .cardFormulario form .textarea {
+    width: 100%;
+  }
+  .infoContacto .cardFormulario form .botonContacto {
+    font-size: 16px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

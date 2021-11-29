@@ -1,2 +1,267 @@
+@media screen and (max-width: 480px){
 
+    .bienvenidos.fondoEncabezadoIndex, .elEstudio.fondoEncabezadoEstudio, .trabajos.fondoEncabezadoTrabajos, .cuidados.fondoEncabezadoCuidados, .contacto.fondoEncabezadoContacto{
+        padding: 120px;
+        height: 0;
+
+        .tituloBienvenidos {
+            top: 95px;
+            text-align: center;
+
+            h1 {
+                font-size: 29px;
+            }
+        }
+
+        .tituloElEstudio {
+            top: 105px;
+            text-align: center;
+
+            h1{
+                font-size: 29px;
+            }
+        }
+
+        .tituloTrabajos {
+            top: 135px;
+
+            h1{
+                font-size: 40px;
+            }
+        }
+
+        .tituloCuidados {
+            top: 95px;
+
+            h1{
+                font-size: 35px;
+            }
+
+            .subtituloCuidados{
+                h3{
+                    font-size: 18px;
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .tituloContacto{
+            top: 95px;
+
+            h1{
+                font-size: 35px;
+            }
+
+        }
+    }
+
+    .indexEstudio{
+        .tituloIndexEstudio{
+            margin-top: 0;
+        }
+
+        .textoIndexEstudio{
+            text-align: left;
+            font-size: 16px;
+        }
+
+        .contenedorImagenIndexEstudio{
+            
+            .imagenIndexEstudio{
+                width: 280px;
+            }
+
+            p{
+                font-size: 20px;
+                left: 70px;
+            }
+        }
+    }
+
+    .indexTrabajos{
+        .tituloIndexTrabajo{
+            margin-top: 0;
+        }
+
+        .textoIndexTrabajo{
+            font-size: 16px;
+        }
+
+        .imgGaleriaIndexTrabajo{
+
+            transition: none;
+            &:hover{
+                transform: none;
+                border: none;
+            }
+        }
+    }
+
+    footer{
+        flex-direction: column;
+        font-size: 16px;
+
+        .left {
+            p {
+                margin-top: 5px;
+                text-align: center;
+            }
+        }
+
+        .redes {
+            p {
+                display: none;
+            }
+
+            .logoRedes{
+                ul{
+                    li{ 
+                      justify-self: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .pageEstudio {
+
+        .imagenCarrousel{
+            width: 100%;
+            height: 400px;
+        }
+
+        .row{
+            position: relative;
+            display: inline-block;
+
+            &>* {
+                margin-top: 430px;
+            }
+        }
+
+        .tituloPageEstudio {
+            font-size: 32px;
+            top: 0;
+            text-align: none;
+        }
+    
+        .subtituloPageEstudio {
+            top: 60px;
+        }
+    
+        .textoPageEstudio{
+            font-size: 16px;
+            text-align-last: center;
+            width: 92%;
+        }
+
+        .nuestroEquipo {
+            h4 {
+                margin-top: -440px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .equipoTatuadores {
+                
+                .contenedorEquipo1, .contenedorEquipo2, .contenedorEquipo3, .contenedorEquipo4 {
+                    margin-top: -425px;
+                }
+
+
+
+
+            }
+        }
+
+        .higieneYseguridad{
+
+            .logo{
+                display: none;
+            }
+
+            h5 {
+                margin-top: -460px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+    }
+
+    .infoBraian, .infoGabriel, .infoDaiana, .infoJuan {
+        .row{
+            display: block;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        p{
+            font-size: 16px;
+        }
+
+    }
+
+    .infoCuidados {
+
+        p{
+            font-size: 16px;
+        }
+
+        .cajaCuidados {
+            margin: 30px 0;
+        }
+
+        .imgInfoCuidados {
+            height: 200px;
+        }
+    }
+
+    .infoContacto {
+        p{
+            font-size: 16px;
+        }
+
+        .cardFormulario{
+            width: 100%;
+
+            form {
+                p {
+                    font-size: 16px;
+                }
+
+                .formularioContacto{
+                    width: auto;
+                    font-size: 16px;
+                }
+
+                .casilla {
+                    display: block;
+                    width: 100%;
+                }
+
+                .recibirInfo {
+                    width: auto;
+                    font-size: 16px;
+                    text-align: center;
+                }
+
+                .textarea{
+                    width: 100%;
+                }
+
+                .botonContacto {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+}
 
