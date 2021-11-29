@@ -1,0 +1,74 @@
+/* Footer */
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background: $color-gris;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p{
+            margin-top: 30px;
+            font-family: $fuente;
+            color: $color-white;
+            text-align: justify;
+        }
+
+        .pages {
+            text-align: left;
+        }
+
+        ul {
+            list-style: none;
+
+            a{
+                text-decoration: none;
+
+                .activo {
+                    color: $color-yellow;
+                }
+
+                li{
+                    font-family: $fuente;
+                    color: $color-white;
+
+                }
+            }
+        }
+    }
+
+    .redes {
+
+        p{
+            font-family: $fuente;
+            color: $color-white;
+            font-size: 20px;
+            margin-left: 35px;
+        }
+
+        .logoRedes {
+            ul {
+                li{
+                    display: inline-block;
+                    
+                    img{
+                        margin: 5px 10px;
+                        height: 25px;
+                    }
+
+                    &:hover {
+                        filter: invert(28%) sepia(100%) saturate(2607%) hue-rotate(0deg) brightness(104%) contrast(105%);
+                    }
+                }  
+            }
+        }
+    }
+}
+
+/* Fin Footer */

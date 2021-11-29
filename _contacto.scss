@@ -1,0 +1,149 @@
+/* Page Contacto */
+
+.contacto.fondoEncabezadoContacto {
+    padding: 170px 0; 
+    background: url(../img/imagenCuidados.jpg);
+    background-position: -55px 50%;
+    position: relative;
+    height: 300px;
+
+    .tituloContacto {
+        position: absolute;
+        top: 150px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+
+        h1 {
+            color: $color-yellow;
+            font-size: 60px;
+            font-family: $fuente;
+            margin: 0 auto;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: -1px -1px 1px  #000, 1px 1px 1px#000, -1px 1px 1px #000, 1px -1px 1px #000;
+        }
+
+        .subtituloContacto {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+
+            h3 {
+                color: $color-yellow;
+                font-family: $fuente;
+                padding: 30px;
+                text-align: center;
+                text-transform: uppercase;
+                text-shadow: -1px -1px 1px  #000, 1px 1px 1px#000, -1px 1px 1px #000, 1px -1px 1px #000;
+            }
+        }
+
+    }
+}
+
+.infoContacto {
+
+    h3 {
+        color: $color-yellow;
+        font-family: $fuente;
+        padding: 30px;
+        text-align: center;
+    }
+
+    p {
+        color: $color-white;
+        text-align: center;
+        font-size: 20px;
+
+        a {
+            color: $color-yellow;
+            text-decoration: none;
+        }
+    }
+
+    .cardFormulario {
+        background: $color-gris;
+        border-radius: 25px;
+        border: 3px solid $color-yellow;
+        width: 75%;
+        margin-bottom: 20px;
+
+        form {
+            text-align: center;
+            margin: 20px;
+
+            h5 {
+                color: $color-yellow;
+                font-family: $fuente;
+                font-size: 25px;
+                padding: 20px;
+            }
+
+            p {
+                font-size: 20px;
+                padding: 20px;
+            }
+
+            .formularioContacto {
+                color: $color-white;
+                margin-bottom: 15px;
+                width: 25%;
+                font-size: 20px;
+            }
+
+            .casilla {
+                display: inline-block;
+                width: 60%;
+            }
+
+            .recibirInfo {
+                text-align: left;
+                color: $color-white;
+                font-size: 20px;
+                width: 50%;
+            }
+
+            .comment{
+                color: $color-white;
+                width: 25%;
+                font-size: 20px;
+            }
+
+            .textarea {
+                display: inline-block;
+                width: 90%;
+                margin-bottom: -15px;
+            }
+
+            .botonContacto {
+                background: $color-gris;
+                color: $color-yellow;
+                font-family: $fuente;
+                border: 1px solid $color-yellow;
+                border-radius: 25px;
+                margin-top: 15px;
+                font-size: 25px;
+            }
+        }
+    }
+
+    .ubicacion {
+        text-align: center;
+        font-family: $fuente;
+        font-size: 30px;
+        color: $color-yellow;
+        margin-top: 60px;
+    }
+
+    .mapa {
+        width: 100%;
+        border-radius: 2%;
+        margin: 30px 0;
+    }
+
+}

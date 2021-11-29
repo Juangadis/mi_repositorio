@@ -1,0 +1,84 @@
+/* Page Cuidados */
+
+.cuidados.fondoEncabezadoCuidados {
+    padding: 170px 0;
+    background: url(../img/imagenCuidados.jpg);
+    background-position: -55px 50%;
+    position: relative;
+    height: 300px;
+
+    .tituloCuidados {
+        position: absolute;
+        top: 150px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+
+        h1 {
+            color: $color-yellow;
+            font-size: 60px;
+            font-family: $fuente;
+            margin: 0 auto;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: -1px -1px 1px  #000, 1px 1px 1px#000, -1px 1px 1px #000, 1px -1px 1px #000;
+        }
+
+        .subtituloCuidados {
+            position: absolute;
+            top: 50px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+
+            h3 {
+                color: $color-yellow;
+                font-family: $fuente;
+                padding: 30px;
+                text-align: center;
+                text-transform: uppercase;
+                text-shadow: -1px -1px 1px  #000, 1px 1px 1px#000, -1px 1px 1px #000, 1px -1px 1px #000;
+            }
+        }
+
+    }
+} 
+
+.infoCuidados {
+    margin: 40px auto;
+
+    p {
+        color: $color-white;
+        font-size: 20px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .accordion-item {
+        border: 1px solid $color-yellow;
+    }
+    .accordion-button {
+        background: $color-gris;
+        color: $color-yellow;
+        font-family: $fuente;
+        text-transform: uppercase;
+        
+
+        &::after {
+            filter: invert(28%) sepia(100%) saturate(3000%) hue-rotate(0deg) brightness(150%) contrast(105%);
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        
+
+    }
+
+    .imgInfoCuidados {
+        float: right;
+    }
+}

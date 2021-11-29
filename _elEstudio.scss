@@ -1,0 +1,154 @@
+/* Page El Estudio */
+
+.elEstudio.fondoEncabezadoEstudio {
+  padding: 170px 0;
+  background: url(../img/Estudio1.jpeg);
+  background-position: 0 35%;
+  position: relative;
+  height: 300px;
+
+  .tituloElEstudio {
+      position: absolute;
+      top: 140px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+
+      h1 {
+          color: rgb(246, 190, 3);
+          font-size: 60px;
+          font-family: 'Rye', cursive;
+          margin: auto;
+          text-align: center;
+          text-transform: uppercase;
+          text-shadow: -1px -1px 1px  #000, 1px 1px 1px#000, -1px 1px 1px #000, 1px -1px 1px #000;
+      }
+  }
+}
+
+.pageEstudio {
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+
+  .tituloPageEstudio {
+    position: absolute;
+    text-align: left;
+    color: $color-yellow;
+    font-family: $fuente;
+    top: 5px;
+    font-size: 58px;
+  }
+
+  .subtituloPageEstudio {
+    position: absolute;
+    text-align: left;
+    color: $color-white;
+    font-family: $fuente;
+    top: 80px;
+  }
+
+  .textoPageEstudio {
+    position: absolute;
+    text-align: justify;
+    color: $color-white;
+    font-size: 20px;
+    top: 120px;
+    padding-top: 10px;
+  }
+
+  button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
+    background: $color-gris;
+    width: 10%;
+    height: 10%;
+    top: 45%;
+  }
+
+  .carousel-control-prev-icon{
+    filter: invert(28%) sepia(100%) saturate(3000%) hue-rotate(0deg) brightness(150%) contrast(105%);
+  }
+
+  .carousel-control-next-icon {
+    filter: invert(28%) sepia(100%) saturate(3000%) hue-rotate(0deg) brightness(150%) contrast(105%);
+  }
+
+  .imagenCarrousel{
+    height: 400px;
+  }
+
+  .nuestroEquipo {
+    margin-top: 20px;
+
+    h4 {
+      color: $color-yellow;
+      font-family: $fuente;
+      padding: 30px;
+      font-size: 32px;
+    }
+
+    .barra {
+      color: $color-yellow;
+    }
+
+    p {
+      color: $color-white;
+      font-size: 20px;
+    }
+
+    .equipoTatuadores{
+      margin-top: 20px;
+
+      .contenedorEquipo1, .contenedorEquipo2, .contenedorEquipo3, .contenedorEquipo4 {
+        position: relative;
+        img {
+          width: 100%;
+          height: 400px;
+          filter: grayscale(1);
+          transition: 0.5s;
+
+          &:hover {
+            filter: none;
+          }
+        }
+
+        p {
+          position: absolute;
+          font-family: $fuente;
+          color: $color-yellow;
+          top: 10px;
+          left: 10px;
+          z-index: 1;
+          text-shadow: -1px -1px 1px  #000, 1px 1px 1px#000, -1px 1px 1px #000, 1px -1px 1px #000;
+        }
+      }
+    }
+  }
+  .higieneYseguridad {
+    margin-top: 60px;
+    .logo{
+      width: 300px;
+    }
+    h5{
+      font-family: $fuente;
+      color: $color-yellow;
+      font-size: 32px;
+      text-align: left;
+    }
+    h6 {
+      color: $color-white;
+      text-align: left;
+      font-family: $fuente;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+    p{
+      margin: 20px 0 40px 0;
+      text-align: left;
+      color: $color-white;
+      font-size: 20px;
+    }
+  }
+}
+
+/* Fin Page El Estudio */

@@ -1,0 +1,150 @@
+/* Page El estudio */
+
+.trabajos.fondoEncabezadoTrabajos {
+    padding: 170px 0;
+    background: url(../img/imagenTrabajos.jpg);
+    background-position: 0 45%;
+    position: relative;
+    height: 300px;
+  
+    .tituloTrabajos {
+        position: absolute;
+        top: 170px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+
+        h1 {
+            color: $color-yellow;
+            font-size: 60px;
+            font-family: $fuente;
+            margin: auto;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: -1px -1px 1px  #000, 1px 1px 1px#000, -1px 1px 1px #000, 1px -1px 1px #000;
+        }
+    }
+}
+  
+.infoBraian {
+
+    h2 {
+        color: $color-yellow;
+        font-family: $fuente;
+        padding: 30px;
+        text-align: right;
+    }
+
+    .imagenBraian {
+        width: 100%;
+        height: 500px;
+    }
+
+    p {
+        color: $color-white;
+        font-size: 20px;
+        padding: 10px;
+        text-align: justify;
+        border: solid 1px $color-yellow;
+    }
+
+    .imagenTrabajos {
+        margin: 20px 0;
+        width: 100%;
+        height: 300px;
+    }
+
+}
+
+.infoGabriel {
+
+    h2 {
+        color: $color-yellow;
+        font-family: $fuente;
+        padding: 30px;
+        text-align: left;
+    }
+
+    .imagenGabriel {
+        width: 100%;
+        height: 500px;
+    }
+
+    p {
+        color: $color-white;
+        font-size: 20px;
+        padding: 10px;
+        text-align: justify;
+        border: solid 1px $color-yellow;
+    }
+
+    .imagenTrabajos {
+        margin: 20px 0;
+        width: 100%;
+        height: 300px;
+    }
+
+}
+
+.infoDaiana {
+
+    h2 {
+        color: $color-yellow;
+        font-family: $fuente;
+        padding: 30px;
+        text-align: right;
+    }
+
+    .imagenDaiana {
+        width: 100%;
+        height: 500px;
+    }
+
+    p {
+        color: $color-white;
+        font-size: 20px;
+        padding: 10px;
+        text-align: justify;
+        border: solid 1px $color-yellow;
+    }
+
+    .imagenTrabajos {
+        margin: 20px 0;
+        width: 100%;
+        height: 300px;
+    }
+
+}
+
+.infoJuan {
+
+    h2 {
+        color: $color-yellow;
+        font-family: $fuente;
+        padding: 30px;
+        text-align: left;
+    }
+
+    .imagenJuan {
+        width: 100%;
+        height: 500px;
+    }
+
+    p {
+        color: $color-white;
+        font-size: 20px;
+        padding: 10px;
+        text-align: justify;
+        border: solid 1px $color-yellow;
+    }
+
+    .imagenTrabajos {
+        width: 100%;
+        height: 300px;
+        margin: 20px 0 40px 0;
+    }
+
+}
+  
+  

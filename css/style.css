@@ -1,0 +1,760 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+/* Fondo Negro a toda mi pagina */
+body {
+  background: black;
+}
+
+/* Mi nav */
+header {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  z-index: 1000;
+  background: black;
+  border-bottom: 2px solid #f6be03;
+}
+
+header .fondoNav {
+  background: #252525 !important;
+}
+
+header .fondoNav .logoTamaño {
+  width: 100px;
+  margin-right: 20px;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+  font-family: "Rye";
+  font-size: 20px;
+}
+
+header .navbar-dark .navbar-nav .nav-link:hover {
+  border-bottom: solid 1px #f6be03;
+}
+
+header .navbar-dark .navbar-nav .nav-link.colorLink.active {
+  color: #f6be03;
+}
+
+/* Fin Mi nav */
+/* Index */
+/* Bienvenidos */
+.bienvenidos.fondoEncabezadoIndex {
+  padding: 170px 0;
+  background: url(../img/imagenIndex.jpg);
+  background-position: 0 25%;
+  position: relative;
+  height: 525px;
+}
+
+.bienvenidos.fondoEncabezadoIndex .tituloBienvenidos {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.bienvenidos.fondoEncabezadoIndex .tituloBienvenidos h1 {
+  color: #f6be03;
+  font-size: 60px;
+  font-family: 'Rye', cursive;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+/* Fin Bienvenidos */
+/* Index Estudio */
+.indexEstudio {
+  text-align: center;
+}
+
+.indexEstudio .tituloIndexEstudio {
+  margin-top: 20px;
+  color: #f6be03;
+  font-family: "Rye";
+  padding: 30px;
+}
+
+.indexEstudio .barraIndexEstudio {
+  color: #f6be03;
+}
+
+.indexEstudio .textoIndexEstudio {
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.indexEstudio .contenedorImagenIndexEstudio {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.indexEstudio .contenedorImagenIndexEstudio .imagenIndexEstudio {
+  width: 800px;
+}
+
+.indexEstudio .contenedorImagenIndexEstudio p {
+  font-family: "Rye";
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  font-size: 30px;
+  color: #f6be03;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+.indexEstudio .contenedorImagenIndexEstudio:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+/* Fin Index Estudio */
+/* Index Trabajos */
+.indexTrabajos {
+  text-align: center;
+}
+
+.indexTrabajos .tituloIndexrabajo {
+  margin-top: 20px;
+  color: #f6be03;
+  font-family: "Rye";
+  padding: 30px;
+}
+
+.indexTrabajos .barraIndexTrabajo {
+  color: #f6be03;
+}
+
+.indexTrabajos .textoIndexTrabajo {
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.indexTrabajos .imgGaleriaIndexTrabajo {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 300px;
+  border: solid 0px #f6be03;
+  -webkit-transform: scale();
+          transform: scale();
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.indexTrabajos .imgGaleriaIndexTrabajo:hover {
+  border: solid 3px #f6be03;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+/* Page El Estudio */
+.elEstudio.fondoEncabezadoEstudio {
+  padding: 170px 0;
+  background: url(../img/Estudio1.jpeg);
+  background-position: 0 35%;
+  position: relative;
+  height: 300px;
+}
+
+.elEstudio.fondoEncabezadoEstudio .tituloElEstudio {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.elEstudio.fondoEncabezadoEstudio .tituloElEstudio h1 {
+  color: #f6be03;
+  font-size: 60px;
+  font-family: 'Rye', cursive;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+.pageEstudio {
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.pageEstudio .tituloPageEstudio {
+  position: absolute;
+  text-align: left;
+  color: #f6be03;
+  font-family: "Rye";
+  top: 5px;
+  font-size: 58px;
+}
+
+.pageEstudio .subtituloPageEstudio {
+  position: absolute;
+  text-align: left;
+  color: white;
+  font-family: "Rye";
+  top: 80px;
+}
+
+.pageEstudio .textoPageEstudio {
+  position: absolute;
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+  top: 120px;
+  padding-top: 10px;
+}
+
+.pageEstudio button:not(:disabled), .pageEstudio [type=button]:not(:disabled), .pageEstudio [type=reset]:not(:disabled), .pageEstudio [type=submit]:not(:disabled) {
+  background: #252525;
+  width: 10%;
+  height: 10%;
+  top: 45%;
+}
+
+.pageEstudio .carousel-control-prev-icon {
+  -webkit-filter: invert(28%) sepia(100%) saturate(3000%) hue-rotate(0deg) brightness(150%) contrast(105%);
+          filter: invert(28%) sepia(100%) saturate(3000%) hue-rotate(0deg) brightness(150%) contrast(105%);
+}
+
+.pageEstudio .carousel-control-next-icon {
+  -webkit-filter: invert(28%) sepia(100%) saturate(3000%) hue-rotate(0deg) brightness(150%) contrast(105%);
+          filter: invert(28%) sepia(100%) saturate(3000%) hue-rotate(0deg) brightness(150%) contrast(105%);
+}
+
+.pageEstudio .imagenCarrousel {
+  height: 400px;
+}
+
+.pageEstudio .nuestroEquipo {
+  margin-top: 20px;
+}
+
+.pageEstudio .nuestroEquipo h4 {
+  color: #f6be03;
+  font-family: "Rye";
+  padding: 30px;
+  font-size: 32px;
+}
+
+.pageEstudio .nuestroEquipo .barra {
+  color: #f6be03;
+}
+
+.pageEstudio .nuestroEquipo p {
+  color: white;
+  font-size: 20px;
+}
+
+.pageEstudio .nuestroEquipo .equipoTatuadores {
+  margin-top: 20px;
+}
+
+.pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo1, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo2, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo3, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo4 {
+  position: relative;
+}
+
+.pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo1 img, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo2 img, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo3 img, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo4 img {
+  width: 100%;
+  height: 400px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo1 img:hover, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo2 img:hover, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo3 img:hover, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo4 img:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo1 p, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo2 p, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo3 p, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo4 p {
+  position: absolute;
+  font-family: "Rye";
+  color: #f6be03;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+.pageEstudio .higieneYseguridad {
+  margin-top: 60px;
+}
+
+.pageEstudio .higieneYseguridad .logo {
+  width: 300px;
+}
+
+.pageEstudio .higieneYseguridad h5 {
+  font-family: "Rye";
+  color: #f6be03;
+  font-size: 32px;
+  text-align: left;
+}
+
+.pageEstudio .higieneYseguridad h6 {
+  color: white;
+  text-align: left;
+  font-family: "Rye";
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.pageEstudio .higieneYseguridad p {
+  margin: 20px 0 40px 0;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+}
+
+/* Fin Page El Estudio */
+/* Page El estudio */
+.trabajos.fondoEncabezadoTrabajos {
+  padding: 170px 0;
+  background: url(../img/imagenTrabajos.jpg);
+  background-position: 0 45%;
+  position: relative;
+  height: 300px;
+}
+
+.trabajos.fondoEncabezadoTrabajos .tituloTrabajos {
+  position: absolute;
+  top: 170px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.trabajos.fondoEncabezadoTrabajos .tituloTrabajos h1 {
+  color: #f6be03;
+  font-size: 60px;
+  font-family: "Rye";
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+.infoBraian h2 {
+  color: #f6be03;
+  font-family: "Rye";
+  padding: 30px;
+  text-align: right;
+}
+
+.infoBraian .imagenBraian {
+  width: 100%;
+  height: 500px;
+}
+
+.infoBraian p {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: justify;
+  border: solid 1px #f6be03;
+}
+
+.infoBraian .imagenTrabajos {
+  margin: 20px 0;
+  width: 100%;
+  height: 300px;
+}
+
+.infoGabriel h2 {
+  color: #f6be03;
+  font-family: "Rye";
+  padding: 30px;
+  text-align: left;
+}
+
+.infoGabriel .imagenGabriel {
+  width: 100%;
+  height: 500px;
+}
+
+.infoGabriel p {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: justify;
+  border: solid 1px #f6be03;
+}
+
+.infoGabriel .imagenTrabajos {
+  margin: 20px 0;
+  width: 100%;
+  height: 300px;
+}
+
+.infoDaiana h2 {
+  color: #f6be03;
+  font-family: "Rye";
+  padding: 30px;
+  text-align: right;
+}
+
+.infoDaiana .imagenDaiana {
+  width: 100%;
+  height: 500px;
+}
+
+.infoDaiana p {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: justify;
+  border: solid 1px #f6be03;
+}
+
+.infoDaiana .imagenTrabajos {
+  margin: 20px 0;
+  width: 100%;
+  height: 300px;
+}
+
+.infoJuan h2 {
+  color: #f6be03;
+  font-family: "Rye";
+  padding: 30px;
+  text-align: left;
+}
+
+.infoJuan .imagenJuan {
+  width: 100%;
+  height: 500px;
+}
+
+.infoJuan p {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: justify;
+  border: solid 1px #f6be03;
+}
+
+.infoJuan .imagenTrabajos {
+  width: 100%;
+  height: 300px;
+  margin: 20px 0 40px 0;
+}
+
+/* Page Cuidados */
+.cuidados.fondoEncabezadoCuidados {
+  padding: 170px 0;
+  background: url(../img/imagenCuidados.jpg);
+  background-position: -55px 50%;
+  position: relative;
+  height: 300px;
+}
+
+.cuidados.fondoEncabezadoCuidados .tituloCuidados {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.cuidados.fondoEncabezadoCuidados .tituloCuidados h1 {
+  color: #f6be03;
+  font-size: 60px;
+  font-family: "Rye";
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+.cuidados.fondoEncabezadoCuidados .tituloCuidados .subtituloCuidados {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.cuidados.fondoEncabezadoCuidados .tituloCuidados .subtituloCuidados h3 {
+  color: #f6be03;
+  font-family: "Rye";
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+.infoCuidados {
+  margin: 40px auto;
+}
+
+.infoCuidados p {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.infoCuidados .accordion-item {
+  border: 1px solid #f6be03;
+}
+
+.infoCuidados .accordion-button {
+  background: #252525;
+  color: #f6be03;
+  font-family: "Rye";
+  text-transform: uppercase;
+}
+
+.infoCuidados .accordion-button::after {
+  -webkit-filter: invert(28%) sepia(100%) saturate(3000%) hue-rotate(0deg) brightness(150%) contrast(105%);
+          filter: invert(28%) sepia(100%) saturate(3000%) hue-rotate(0deg) brightness(150%) contrast(105%);
+}
+
+.infoCuidados .accordion-button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.infoCuidados .imgInfoCuidados {
+  float: right;
+}
+
+/* Page Contacto */
+.contacto.fondoEncabezadoContacto {
+  padding: 170px 0;
+  background: url(../img/imagenCuidados.jpg);
+  background-position: -55px 50%;
+  position: relative;
+  height: 300px;
+}
+
+.contacto.fondoEncabezadoContacto .tituloContacto {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.contacto.fondoEncabezadoContacto .tituloContacto h1 {
+  color: #f6be03;
+  font-size: 60px;
+  font-family: "Rye";
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+.contacto.fondoEncabezadoContacto .tituloContacto .subtituloContacto {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.contacto.fondoEncabezadoContacto .tituloContacto .subtituloContacto h3 {
+  color: #f6be03;
+  font-family: "Rye";
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+}
+
+.infoContacto h3 {
+  color: #f6be03;
+  font-family: "Rye";
+  padding: 30px;
+  text-align: center;
+}
+
+.infoContacto p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.infoContacto p a {
+  color: #f6be03;
+  text-decoration: none;
+}
+
+.infoContacto .cardFormulario {
+  background: #252525;
+  border-radius: 25px;
+  border: 3px solid #f6be03;
+  width: 75%;
+  margin-bottom: 20px;
+}
+
+.infoContacto .cardFormulario form {
+  text-align: center;
+  margin: 20px;
+}
+
+.infoContacto .cardFormulario form h5 {
+  color: #f6be03;
+  font-family: "Rye";
+  font-size: 25px;
+  padding: 20px;
+}
+
+.infoContacto .cardFormulario form p {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.infoContacto .cardFormulario form .formularioContacto {
+  color: white;
+  margin-bottom: 15px;
+  width: 25%;
+  font-size: 20px;
+}
+
+.infoContacto .cardFormulario form .casilla {
+  display: inline-block;
+  width: 60%;
+}
+
+.infoContacto .cardFormulario form .recibirInfo {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  width: 50%;
+}
+
+.infoContacto .cardFormulario form .comment {
+  color: white;
+  width: 25%;
+  font-size: 20px;
+}
+
+.infoContacto .cardFormulario form .textarea {
+  display: inline-block;
+  width: 90%;
+  margin-bottom: -15px;
+}
+
+.infoContacto .cardFormulario form .botonContacto {
+  background: #252525;
+  color: #f6be03;
+  font-family: "Rye";
+  border: 1px solid #f6be03;
+  border-radius: 25px;
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.infoContacto .ubicacion {
+  text-align: center;
+  font-family: "Rye";
+  font-size: 30px;
+  color: #f6be03;
+  margin-top: 60px;
+}
+
+.infoContacto .mapa {
+  width: 100%;
+  border-radius: 2%;
+  margin: 30px 0;
+}
+
+/* Footer */
+footer {
+  padding: 10px;
+  text-align: center;
+  background: #252525;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .left p {
+  margin-top: 30px;
+  font-family: "Rye";
+  color: white;
+  text-align: justify;
+}
+
+footer .left .pages {
+  text-align: left;
+}
+
+footer .left ul {
+  list-style: none;
+}
+
+footer .left ul a {
+  text-decoration: none;
+}
+
+footer .left ul a .activo {
+  color: #f6be03;
+}
+
+footer .left ul a li {
+  font-family: "Rye";
+  color: white;
+}
+
+footer .redes p {
+  font-family: "Rye";
+  color: white;
+  font-size: 20px;
+  margin-left: 35px;
+}
+
+footer .redes .logoRedes ul li {
+  display: inline-block;
+}
+
+footer .redes .logoRedes ul li img {
+  margin: 5px 10px;
+  height: 25px;
+}
+
+footer .redes .logoRedes ul li:hover {
+  -webkit-filter: invert(28%) sepia(100%) saturate(2607%) hue-rotate(0deg) brightness(104%) contrast(105%);
+          filter: invert(28%) sepia(100%) saturate(2607%) hue-rotate(0deg) brightness(104%) contrast(105%);
+}
+
+/* Fin Footer */
+/*# sourceMappingURL=style.css.map */
