@@ -855,8 +855,7 @@ footer .redes .logoRedes ul li:hover {
   .pageEstudio .tituloPageEstudio {
     font-size: 32px;
     top: 0;
-    text-align: none;
-    left: 75px;
+    left: 100px;
   }
   .pageEstudio .subtituloPageEstudio {
     top: 60px;
@@ -901,7 +900,8 @@ footer .redes .logoRedes ul li:hover {
     margin: 30px 0;
   }
   .infoCuidados .imgInfoCuidados {
-    height: 370px;
+    width: 335px;
+    height: 270px;
   }
   .infoContacto p {
     font-size: 16px;
@@ -930,6 +930,115 @@ footer .redes .logoRedes ul li:hover {
   }
   .infoContacto .cardFormulario form .botonContacto {
     font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .bienvenidos.fondoEncabezadoIndex, .elEstudio.fondoEncabezadoEstudio, .trabajos.fondoEncabezadoTrabajos, .cuidados.fondoEncabezadoCuidados, .contacto.fondoEncabezadoContacto {
+    height: 438px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloBienvenidos, .elEstudio.fondoEncabezadoEstudio .tituloBienvenidos, .trabajos.fondoEncabezadoTrabajos .tituloBienvenidos, .cuidados.fondoEncabezadoCuidados .tituloBienvenidos, .contacto.fondoEncabezadoContacto .tituloBienvenidos {
+    top: 150px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloBienvenidos h1, .elEstudio.fondoEncabezadoEstudio .tituloBienvenidos h1, .trabajos.fondoEncabezadoTrabajos .tituloBienvenidos h1, .cuidados.fondoEncabezadoCuidados .tituloBienvenidos h1, .contacto.fondoEncabezadoContacto .tituloBienvenidos h1 {
+    font-size: 50px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloCuidados .subtituloCuidados, .elEstudio.fondoEncabezadoEstudio .tituloCuidados .subtituloCuidados, .trabajos.fondoEncabezadoTrabajos .tituloCuidados .subtituloCuidados, .cuidados.fondoEncabezadoCuidados .tituloCuidados .subtituloCuidados, .contacto.fondoEncabezadoContacto .tituloCuidados .subtituloCuidados {
+    top: 140px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloContacto, .elEstudio.fondoEncabezadoEstudio .tituloContacto, .trabajos.fondoEncabezadoTrabajos .tituloContacto, .cuidados.fondoEncabezadoCuidados .tituloContacto, .contacto.fondoEncabezadoContacto .tituloContacto {
+    top: 170px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloContacto .subtituloCuidados, .elEstudio.fondoEncabezadoEstudio .tituloContacto .subtituloCuidados, .trabajos.fondoEncabezadoTrabajos .tituloContacto .subtituloCuidados, .cuidados.fondoEncabezadoCuidados .tituloContacto .subtituloCuidados, .contacto.fondoEncabezadoContacto .tituloContacto .subtituloCuidados {
+    top: 125px;
+  }
+  .indexEstudio .contenedorImagenIndexEstudio {
+    left: -5px;
+  }
+  .indexEstudio .contenedorImagenIndexEstudio p {
+    left: 150px;
+  }
+  .indexTrabajos .imgGaleriaIndexTrabajo {
+    -webkit-transition: none;
+    transition: none;
+  }
+  .indexTrabajos .imgGaleriaIndexTrabajo:hover {
+    -webkit-transform: none;
+            transform: none;
+    border: none;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .left p {
+    margin-top: 5px;
+    text-align: center;
+  }
+  footer .redes p {
+    display: none;
+  }
+  footer .redes .logoRedes ul li {
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .pageEstudio .imagenCarrousel {
+    width: 100%;
+    height: 400px;
+  }
+  .pageEstudio .row {
+    position: relative;
+    display: inline-block;
+  }
+  .pageEstudio .row > * {
+    margin-top: 330px;
+  }
+  .pageEstudio .tituloPageEstudio {
+    font-size: 32px;
+    top: 0;
+    text-align: none;
+    left: 180px;
+  }
+  .pageEstudio .subtituloPageEstudio {
+    top: 60px;
+    left: 80px;
+  }
+  .pageEstudio .textoPageEstudio {
+    font-size: 16px;
+    text-align-last: center;
+    width: 92%;
+  }
+  .pageEstudio .nuestroEquipo h4 {
+    margin-top: -350px;
+  }
+  .pageEstudio .nuestroEquipo p {
+    font-size: 16px;
+  }
+  .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo1, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo2, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo3, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo4 {
+    margin-top: -325px;
+  }
+  .pageEstudio .higieneYseguridad .logo {
+    display: none;
+  }
+  .pageEstudio .higieneYseguridad h5 {
+    margin-top: -350px;
+  }
+  .pageEstudio .higieneYseguridad p {
+    font-size: 16px;
+  }
+  .infoBraian .row, .infoGabriel .row, .infoDaiana .row, .infoJuan .row {
+    display: block;
+  }
+  .infoBraian h2, .infoGabriel h2, .infoDaiana h2, .infoJuan h2 {
+    text-align: center;
+  }
+  .infoCuidados .imgInfoCuidados {
+    margin: 30px 0;
+  }
+  .infoContacto .cardFormulario {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
