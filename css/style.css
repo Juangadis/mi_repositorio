@@ -1050,7 +1050,7 @@ footer .redes .logoRedes ul li:hover {
   .infoCuidados .cajaCuidados {
     margin: 30px 0;
   }
-  .infoCuidados #imagenCuidados {
+  .infoCuidados .imagenCuidados {
     display: none;
   }
   .infoContacto p {
@@ -1193,12 +1193,12 @@ footer .redes .logoRedes ul li:hover {
   .infoBraian h2, .infoGabriel h2, .infoDaiana h2, .infoJuan h2 {
     text-align: center;
   }
-  .infoCuidados #imagenCuidados {
+  .infoCuidados .imagenCuidados {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .infoCuidados #imagenCuidados .imgInfoCuidados {
+  .infoCuidados .imagenCuidados .imgInfoCuidados {
     -webkit-box-flex: 1;
         -ms-flex: auto;
             flex: auto;

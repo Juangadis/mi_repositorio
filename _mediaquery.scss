@@ -237,7 +237,7 @@
             margin: 30px 0;
         }
 
-        #imagenCuidados {
+        .imagenCuidados {
             display: none;
         } 
 
@@ -451,7 +451,7 @@
     }
 
     .infoCuidados {
-        #imagenCuidados {
+        .imagenCuidados {
             display: flex;
 
             .imgInfoCuidados {
