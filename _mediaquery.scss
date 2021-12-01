@@ -87,14 +87,33 @@
             font-size: 16px;
         }
 
-        .imgGaleriaIndexTrabajo{
+        .gridPadre {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(9, auto);
+            grid-template-areas:
+                "imagenUno"
+                "imagenDos"
+                "imagenTres"
+                "imagenCuatro"
+                "imagenCinco"
+                "imagenSeis"
+                "imagenSiete"
+                "imagenOcho"
+                "imagenNueve"
+            ;
 
-            transition: none;
-            &:hover{
-                transform: none;
-                border: none;
+            .imagenGaleria{
+
+                transition: none;
+                &:hover{
+                    transform: none;
+                    border: none;
+                }
             }
+    
         }
+
     }
 
     footer{
@@ -142,7 +161,7 @@
         .tituloPageEstudio {
             font-size: 32px;
             top: 0;
-            left: 100px;
+            left: 80px;
         }
     
         .subtituloPageEstudio {
@@ -152,7 +171,6 @@
     
         .textoPageEstudio{
             font-size: 16px;
-            text-align-last: center;
             width: 92%;
         }
 
@@ -304,13 +322,28 @@
     }
 
     .indexTrabajos{
-        .imgGaleriaIndexTrabajo{
-            transition: none;
-            &:hover{
-                transform: none;
-                border: none;
+
+        .gridPadre {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-areas:
+                "imagenUno imagenDos"
+                "imagenTres imagenCuatro"
+                "imagenCinco imagenSeis"
+                "imagenSiete imagenOcho"
+                "imagenNueve ImagenNueve"
+            ;
+
+            .imagenGaleria{
+                transition: none;
+                &:hover{
+                    transform: none;
+                    border: none;
+                }
             }
         }
+        
     }
 
     footer{

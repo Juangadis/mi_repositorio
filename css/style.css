@@ -139,18 +139,161 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
   padding: 30px;
 }
 
-.indexTrabajos .imgGaleriaIndexTrabajo {
-  margin-bottom: 20px;
+.indexTrabajos .imagenGaleria {
   width: 100%;
   height: 300px;
-  border: solid 0px #f6be03;
+}
+
+.indexTrabajos .gridPadre {
+  display: -ms-grid;
+  display: grid;
+  margin-bottom: 40px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+      grid-template-areas: "imagenUno imagenDos imagenTres" "imagenCuatro imagenCinco imagenSeis" "imagenSiete imagenOcho imagenNueve";
+}
+
+.indexTrabajos .imagenUno {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: imagenUno;
   -webkit-transform: scale();
           transform: scale();
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.indexTrabajos .imgGaleriaIndexTrabajo:hover {
+.indexTrabajos .imagenUno:hover {
+  border: solid 3px #f6be03;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.indexTrabajos .imagenDos {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: imagenDos;
+  -webkit-transform: scale();
+          transform: scale();
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.indexTrabajos .imagenDos:hover {
+  border: solid 3px #f6be03;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.indexTrabajos .imagenTres {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: imagenTres;
+  -webkit-transform: scale();
+          transform: scale();
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.indexTrabajos .imagenTres:hover {
+  border: solid 3px #f6be03;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.indexTrabajos .imagenCuatro {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: imagenCuatro;
+  -webkit-transform: scale();
+          transform: scale();
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.indexTrabajos .imagenCuatro:hover {
+  border: solid 3px #f6be03;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.indexTrabajos .imagenCinco {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: imagenCinco;
+  -webkit-transform: scale();
+          transform: scale();
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.indexTrabajos .imagenCinco:hover {
+  border: solid 3px #f6be03;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.indexTrabajos .imagenSeis {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: imagenSeis;
+  -webkit-transform: scale();
+          transform: scale();
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.indexTrabajos .imagenSeis:hover {
+  border: solid 3px #f6be03;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.indexTrabajos .imagenSiete {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: imagenSiete;
+  -webkit-transform: scale();
+          transform: scale();
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.indexTrabajos .imagenSiete:hover {
+  border: solid 3px #f6be03;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.indexTrabajos .imagenOcho {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: imagenOcho;
+  -webkit-transform: scale();
+          transform: scale();
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.indexTrabajos .imagenOcho:hover {
+  border: solid 3px #f6be03;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.indexTrabajos .imagenNueve {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: imagenNueve;
+  -webkit-transform: scale();
+          transform: scale();
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.indexTrabajos .imagenNueve:hover {
   border: solid 3px #f6be03;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -814,11 +957,20 @@ footer .redes .logoRedes ul li:hover {
   .indexTrabajos .textoIndexTrabajo {
     font-size: 16px;
   }
-  .indexTrabajos .imgGaleriaIndexTrabajo {
+  .indexTrabajos .gridPadre {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: (auto)[9];
+        grid-template-rows: repeat(9, auto);
+        grid-template-areas: "imagenUno" "imagenDos" "imagenTres" "imagenCuatro" "imagenCinco" "imagenSeis" "imagenSiete" "imagenOcho" "imagenNueve";
+  }
+  .indexTrabajos .gridPadre .imagenGaleria {
     -webkit-transition: none;
     transition: none;
   }
-  .indexTrabajos .imgGaleriaIndexTrabajo:hover {
+  .indexTrabajos .gridPadre .imagenGaleria:hover {
     -webkit-transform: none;
             transform: none;
     border: none;
@@ -855,7 +1007,7 @@ footer .redes .logoRedes ul li:hover {
   .pageEstudio .tituloPageEstudio {
     font-size: 32px;
     top: 0;
-    left: 100px;
+    left: 80px;
   }
   .pageEstudio .subtituloPageEstudio {
     top: 60px;
@@ -863,7 +1015,6 @@ footer .redes .logoRedes ul li:hover {
   }
   .pageEstudio .textoPageEstudio {
     font-size: 16px;
-    text-align-last: center;
     width: 92%;
   }
   .pageEstudio .nuestroEquipo h4 {
@@ -958,11 +1109,20 @@ footer .redes .logoRedes ul li:hover {
   .indexEstudio .contenedorImagenIndexEstudio p {
     left: 150px;
   }
-  .indexTrabajos .imgGaleriaIndexTrabajo {
+  .indexTrabajos .gridPadre {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas: "imagenUno imagenDos" "imagenTres imagenCuatro" "imagenCinco imagenSeis" "imagenSiete imagenOcho" "imagenNueve ImagenNueve";
+  }
+  .indexTrabajos .gridPadre .imagenGaleria {
     -webkit-transition: none;
     transition: none;
   }
-  .indexTrabajos .imgGaleriaIndexTrabajo:hover {
+  .indexTrabajos .gridPadre .imagenGaleria:hover {
     -webkit-transform: none;
             transform: none;
     border: none;

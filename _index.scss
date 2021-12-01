@@ -104,16 +104,111 @@
         padding: 30px;
     }
 
-    .imgGaleriaIndexTrabajo {
-        margin-bottom: 20px;
+    .imagenGaleria {
         width: 100%;
         height: 300px;
-        border: solid 0px $color-yellow;
+    }
+    
+    .gridPadre {
+        display: grid;
+        margin-bottom: 40px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "imagenUno imagenDos imagenTres"
+            "imagenCuatro imagenCinco imagenSeis"
+            "imagenSiete imagenOcho imagenNueve"
+        ;
+    }
+    
+    .imagenUno {
+        grid-area: imagenUno;
         transform: scale();
         transition: 1s;
         &:hover {
             border: solid 3px $color-yellow;
             transform: scale(1.2);
         }
-    }   
+    }
+    
+    .imagenDos {
+        grid-area: imagenDos;
+        transform: scale();
+        transition: 1s;
+        &:hover {
+            border: solid 3px $color-yellow;
+            transform: scale(1.2);
+        }
+    }
+    
+    .imagenTres {
+        grid-area: imagenTres;
+        transform: scale();
+        transition: 1s;
+        &:hover {
+            border: solid 3px $color-yellow;
+            transform: scale(1.2);
+        }
+    }
+    
+    .imagenCuatro {
+        grid-area: imagenCuatro;
+        transform: scale();
+        transition: 1s;
+        &:hover {
+            border: solid 3px $color-yellow;
+            transform: scale(1.2);
+        }
+    }
+    
+    .imagenCinco {
+        grid-area: imagenCinco;
+        transform: scale();
+        transition: 1s;
+        &:hover {
+            border: solid 3px $color-yellow;
+            transform: scale(1.2);
+        }
+    }
+    
+    .imagenSeis {
+        grid-area: imagenSeis;
+        transform: scale();
+        transition: 1s;
+        &:hover {
+            border: solid 3px $color-yellow;
+            transform: scale(1.2);
+        }
+    }
+    
+    .imagenSiete {
+        grid-area: imagenSiete;
+        transform: scale();
+        transition: 1s;
+        &:hover {
+            border: solid 3px $color-yellow;
+            transform: scale(1.2);
+        }
+    }
+    
+    .imagenOcho {
+        grid-area: imagenOcho;
+        transform: scale();
+        transition: 1s;
+        &:hover {
+            border: solid 3px $color-yellow;
+            transform: scale(1.2);
+        }
+    }
+    
+    .imagenNueve {
+        grid-area: imagenNueve;
+        transform: scale();
+        transition: 1s;
+        &:hover {
+            border: solid 3px $color-yellow;
+            transform: scale(1.2);
+        }
+    }
+
 }
