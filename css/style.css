@@ -803,6 +803,12 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
   font-size: 25px;
 }
 
+.infoContacto .cardFormulario form .botonContacto:hover {
+  border: 2px solid black;
+  color: black;
+  background: #f6be03;
+}
+
 .infoContacto .ubicacion {
   text-align: center;
   font-family: "Rye";
