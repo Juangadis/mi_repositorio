@@ -236,15 +236,9 @@
         .cajaCuidados {
             margin: 30px 0;
         }
-        
-        #imagenCuidados {
-            display: flex;
 
-            .imgInfoCuidados {
-                flex: auto;
-                margin: 30px 0;
-            }
-    
+        #imagenCuidados {
+            display: none;
         } 
 
     }
