@@ -42,8 +42,9 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 /* Bienvenidos */
 .bienvenidos.fondoEncabezadoIndex {
   padding: 170px 0;
-  background: url(../img/imagenIndex.jpg);
+  background: url(../img/imagenIndex.jpg) no-repeat;
   background-position: 0 25%;
+  background-size: 100%;
   position: relative;
   height: 525px;
 }
@@ -105,8 +106,9 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
   font-family: "Rye";
   position: absolute;
   top: 10px;
-  left: 100px;
-  font-size: 30px;
+  left: 0;
+  right: 0;
+  font-size: 40px;
   color: #f6be03;
   text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
 }
@@ -302,8 +304,9 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 /* Page El Estudio */
 .elEstudio.fondoEncabezadoEstudio {
   padding: 170px 0;
-  background: url(../img/Estudio1.jpeg);
+  background: url(../img/Estudio1.jpeg) no-repeat;
   background-position: 0 35%;
+  background-size: 100%;
   position: relative;
   height: 300px;
 }
@@ -319,7 +322,7 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 
 .elEstudio.fondoEncabezadoEstudio .tituloElEstudio h1 {
   color: #f6be03;
-  font-size: 60px;
+  font-size: 55px;
   font-family: 'Rye', cursive;
   margin: auto;
   text-align: center;
@@ -378,6 +381,7 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 
 .pageEstudio .imagenCarrousel {
   height: 400px;
+  margin: 30px 0;
 }
 
 .pageEstudio .nuestroEquipo {
@@ -466,8 +470,9 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 /* Page El estudio */
 .trabajos.fondoEncabezadoTrabajos {
   padding: 170px 0;
-  background: url(../img/imagenTrabajos.jpg);
+  background: url(../img/imagenTrabajos.jpg) no-repeat;
   background-position: 0 45%;
+  background-size: 100%;
   position: relative;
   height: 300px;
 }
@@ -495,7 +500,7 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
   color: #f6be03;
   font-family: "Rye";
   padding: 30px;
-  text-align: right;
+  text-align: left;
 }
 
 .infoBraian .imagenBraian {
@@ -511,9 +516,13 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 }
 
 .infoBraian .imagenTrabajos {
-  margin: 20px 0;
+  margin: 40px 0;
   width: 100%;
   height: 300px;
+}
+
+.infoBraian hr {
+  color: #f6be03;
 }
 
 .infoGabriel h2 {
@@ -536,16 +545,20 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 }
 
 .infoGabriel .imagenTrabajos {
-  margin: 20px 0;
+  margin: 40px 0;
   width: 100%;
   height: 300px;
+}
+
+.infoGabriel hr {
+  color: #f6be03;
 }
 
 .infoDaiana h2 {
   color: #f6be03;
   font-family: "Rye";
   padding: 30px;
-  text-align: right;
+  text-align: left;
 }
 
 .infoDaiana .imagenDaiana {
@@ -561,9 +574,13 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 }
 
 .infoDaiana .imagenTrabajos {
-  margin: 20px 0;
+  margin: 40px 0;
   width: 100%;
   height: 300px;
+}
+
+.infoDaiana hr {
+  color: #f6be03;
 }
 
 .infoJuan h2 {
@@ -588,14 +605,15 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 .infoJuan .imagenTrabajos {
   width: 100%;
   height: 300px;
-  margin: 20px 0 40px 0;
+  margin: 40px 0 40px 0;
 }
 
 /* Page Cuidados */
 .cuidados.fondoEncabezadoCuidados {
   padding: 170px 0;
-  background: url(../img/imagenCuidados.jpg);
+  background: url(../img/imagenCuidados.jpg) no-repeat;
   background-position: -55px 50%;
+  background-size: 105%;
   position: relative;
   height: 300px;
 }
@@ -611,7 +629,7 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 
 .cuidados.fondoEncabezadoCuidados .tituloCuidados h1 {
   color: #f6be03;
-  font-size: 60px;
+  font-size: 58px;
   font-family: "Rye";
   margin: 0 auto;
   text-align: center;
@@ -676,8 +694,9 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 /* Page Contacto */
 .contacto.fondoEncabezadoContacto {
   padding: 170px 0;
-  background: url(../img/imagenCuidados.jpg);
+  background: url(../img/imagenCuidados.jpg) no-repeat;
   background-position: -55px 50%;
+  background-size: 105%;
   position: relative;
   height: 300px;
 }
@@ -906,13 +925,14 @@ footer .redes .logoRedes ul li:hover {
   .bienvenidos.fondoEncabezadoIndex, .elEstudio.fondoEncabezadoEstudio, .trabajos.fondoEncabezadoTrabajos, .cuidados.fondoEncabezadoCuidados, .contacto.fondoEncabezadoContacto {
     padding: 120px;
     height: 0;
+    background-size: auto;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloBienvenidos, .elEstudio.fondoEncabezadoEstudio .tituloBienvenidos, .trabajos.fondoEncabezadoTrabajos .tituloBienvenidos, .cuidados.fondoEncabezadoCuidados .tituloBienvenidos, .contacto.fondoEncabezadoContacto .tituloBienvenidos {
-    top: 100px;
+    top: 50%;
     text-align: center;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloBienvenidos h1, .elEstudio.fondoEncabezadoEstudio .tituloBienvenidos h1, .trabajos.fondoEncabezadoTrabajos .tituloBienvenidos h1, .cuidados.fondoEncabezadoCuidados .tituloBienvenidos h1, .contacto.fondoEncabezadoContacto .tituloBienvenidos h1 {
-    font-size: 29px;
+    font-size: 24px;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloElEstudio, .elEstudio.fondoEncabezadoEstudio .tituloElEstudio, .trabajos.fondoEncabezadoTrabajos .tituloElEstudio, .cuidados.fondoEncabezadoCuidados .tituloElEstudio, .contacto.fondoEncabezadoContacto .tituloElEstudio {
     top: 110px;
@@ -931,11 +951,11 @@ footer .redes .logoRedes ul li:hover {
     top: 95px;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloCuidados h1, .elEstudio.fondoEncabezadoEstudio .tituloCuidados h1, .trabajos.fondoEncabezadoTrabajos .tituloCuidados h1, .cuidados.fondoEncabezadoCuidados .tituloCuidados h1, .contacto.fondoEncabezadoContacto .tituloCuidados h1 {
-    font-size: 35px;
+    font-size: 25px;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloCuidados .subtituloCuidados h3, .elEstudio.fondoEncabezadoEstudio .tituloCuidados .subtituloCuidados h3, .trabajos.fondoEncabezadoTrabajos .tituloCuidados .subtituloCuidados h3, .cuidados.fondoEncabezadoCuidados .tituloCuidados .subtituloCuidados h3, .contacto.fondoEncabezadoContacto .tituloCuidados .subtituloCuidados h3 {
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: -10px;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloContacto, .elEstudio.fondoEncabezadoEstudio .tituloContacto, .trabajos.fondoEncabezadoTrabajos .tituloContacto, .cuidados.fondoEncabezadoCuidados .tituloContacto, .contacto.fondoEncabezadoContacto .tituloContacto {
     top: 95px;
@@ -951,11 +971,12 @@ footer .redes .logoRedes ul li:hover {
     font-size: 16px;
   }
   .indexEstudio .contenedorImagenIndexEstudio .imagenIndexEstudio {
-    width: 280px;
+    width: 100%;
   }
   .indexEstudio .contenedorImagenIndexEstudio p {
     font-size: 20px;
-    left: 70px;
+    left: 0;
+    right: 0;
   }
   .indexTrabajos .tituloIndexTrabajo {
     margin-top: 0;
@@ -1091,16 +1112,21 @@ footer .redes .logoRedes ul li:hover {
 
 @media screen and (min-width: 480px) and (max-width: 780px) {
   .bienvenidos.fondoEncabezadoIndex, .elEstudio.fondoEncabezadoEstudio, .trabajos.fondoEncabezadoTrabajos, .cuidados.fondoEncabezadoCuidados, .contacto.fondoEncabezadoContacto {
-    height: 438px;
+    height: 300px;
+    background-size: auto;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloBienvenidos, .elEstudio.fondoEncabezadoEstudio .tituloBienvenidos, .trabajos.fondoEncabezadoTrabajos .tituloBienvenidos, .cuidados.fondoEncabezadoCuidados .tituloBienvenidos, .contacto.fondoEncabezadoContacto .tituloBienvenidos {
-    top: 150px;
+    top: 42%;
+    text-align: center;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloBienvenidos h1, .elEstudio.fondoEncabezadoEstudio .tituloBienvenidos h1, .trabajos.fondoEncabezadoTrabajos .tituloBienvenidos h1, .cuidados.fondoEncabezadoCuidados .tituloBienvenidos h1, .contacto.fondoEncabezadoContacto .tituloBienvenidos h1 {
-    font-size: 50px;
+    font-size: 37px;
+  }
+  .bienvenidos.fondoEncabezadoIndex .tituloCuidados h1, .elEstudio.fondoEncabezadoEstudio .tituloCuidados h1, .trabajos.fondoEncabezadoTrabajos .tituloCuidados h1, .cuidados.fondoEncabezadoCuidados .tituloCuidados h1, .contacto.fondoEncabezadoContacto .tituloCuidados h1 {
+    font-size: 37px;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloCuidados .subtituloCuidados, .elEstudio.fondoEncabezadoEstudio .tituloCuidados .subtituloCuidados, .trabajos.fondoEncabezadoTrabajos .tituloCuidados .subtituloCuidados, .cuidados.fondoEncabezadoCuidados .tituloCuidados .subtituloCuidados, .contacto.fondoEncabezadoContacto .tituloCuidados .subtituloCuidados {
-    top: 140px;
+    top: 10%;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloContacto, .elEstudio.fondoEncabezadoEstudio .tituloContacto, .trabajos.fondoEncabezadoTrabajos .tituloContacto, .cuidados.fondoEncabezadoCuidados .tituloContacto, .contacto.fondoEncabezadoContacto .tituloContacto {
     top: 170px;
@@ -1108,11 +1134,12 @@ footer .redes .logoRedes ul li:hover {
   .bienvenidos.fondoEncabezadoIndex .tituloContacto .subtituloCuidados, .elEstudio.fondoEncabezadoEstudio .tituloContacto .subtituloCuidados, .trabajos.fondoEncabezadoTrabajos .tituloContacto .subtituloCuidados, .cuidados.fondoEncabezadoCuidados .tituloContacto .subtituloCuidados, .contacto.fondoEncabezadoContacto .tituloContacto .subtituloCuidados {
     top: 125px;
   }
-  .indexEstudio .contenedorImagenIndexEstudio {
-    left: -5px;
+  .indexEstudio .contenedorImagenIndexEstudio .imagenIndexEstudio {
+    width: 100%;
   }
   .indexEstudio .contenedorImagenIndexEstudio p {
-    left: 150px;
+    left: 0;
+    right: 0;
   }
   .indexTrabajos .gridPadre {
     display: -ms-grid;
@@ -1189,9 +1216,14 @@ footer .redes .logoRedes ul li:hover {
   }
   .pageEstudio .higieneYseguridad h5 {
     margin-top: -350px;
+    text-align: center;
+  }
+  .pageEstudio .higieneYseguridad h6 {
+    text-align: center;
   }
   .pageEstudio .higieneYseguridad p {
     font-size: 16px;
+    text-align: center;
   }
   .infoBraian .row, .infoGabriel .row, .infoDaiana .row, .infoJuan .row {
     display: block;
@@ -1209,6 +1241,9 @@ footer .redes .logoRedes ul li:hover {
         -ms-flex: auto;
             flex: auto;
     margin: 30px 0;
+  }
+  .infoCuidados .logo {
+    display: none;
   }
   .infoContacto .cardFormulario {
     width: 100%;

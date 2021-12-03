@@ -3,13 +3,14 @@
     .bienvenidos.fondoEncabezadoIndex, .elEstudio.fondoEncabezadoEstudio, .trabajos.fondoEncabezadoTrabajos, .cuidados.fondoEncabezadoCuidados, .contacto.fondoEncabezadoContacto{
         padding: 120px;
         height: 0;
+        background-size: auto;
 
         .tituloBienvenidos {
-            top: 100px;
+            top: 50%;
             text-align: center;
 
             h1 {
-                font-size: 29px;
+                font-size: 24px;
             }
         }
 
@@ -34,13 +35,13 @@
             top: 95px;
 
             h1{
-                font-size: 35px;
+                font-size: 25px;
             }
 
             .subtituloCuidados{
                 h3{
                     font-size: 18px;
-                    margin-top: 10px;
+                    margin-top: -10px;
                 }
             }
         }
@@ -68,12 +69,12 @@
         .contenedorImagenIndexEstudio{
             
             .imagenIndexEstudio{
-                width: 280px;
+                width: 100%;
             }
-
             p{
                 font-size: 20px;
-                left: 70px;
+                left: 0;
+                right: 0;
             }
         }
     }
@@ -287,19 +288,23 @@
 
 @media screen and (min-width: 480px) and (max-width: 780px){
     .bienvenidos.fondoEncabezadoIndex, .elEstudio.fondoEncabezadoEstudio, .trabajos.fondoEncabezadoTrabajos, .cuidados.fondoEncabezadoCuidados, .contacto.fondoEncabezadoContacto{
-        height: 438px;
+        height: 300px;
+        background-size: auto;
 
         .tituloBienvenidos{
-            top: 150px;
-
+            top: 42%;
+            text-align: center;
             h1 {
-                font-size: 50px;
+                font-size: 37px;
             }
         }
 
         .tituloCuidados {
+            h1{
+                font-size: 37px;
+            }
             .subtituloCuidados{
-                top: 140px;
+                top: 10%;
             }
         }
 
@@ -314,9 +319,13 @@
 
     .indexEstudio {
         .contenedorImagenIndexEstudio{
-            left: -5px;
+
+            .imagenIndexEstudio{
+                width: 100%;
+            }
             p{
-                left: 150px;
+                left: 0;
+                right: 0;
             }
         }
     }
@@ -430,10 +439,16 @@
 
             h5 {
                 margin-top: -350px;
+                text-align: center;
+            }
+
+            h6 {
+                text-align: center;
             }
 
             p {
                 font-size: 16px;
+                text-align: center;
             }
         }
 
@@ -459,6 +474,10 @@
                 margin: 30px 0;
             }
         }
+
+        .logo {
+            display: none;
+        }
     }
 
     .infoContacto {
@@ -468,3 +487,4 @@
     }
 
 }
+

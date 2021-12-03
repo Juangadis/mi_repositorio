@@ -2,8 +2,9 @@
 
 .trabajos.fondoEncabezadoTrabajos {
     padding: 170px 0;
-    background: url(../img/imagenTrabajos.jpg);
+    background: url(../img/imagenTrabajos.jpg) no-repeat;
     background-position: 0 45%;
+    background-size: 100%;
     position: relative;
     height: 300px;
   
@@ -33,7 +34,7 @@
         color: $color-yellow;
         font-family: $fuente;
         padding: 30px;
-        text-align: right;
+        text-align: left;
     }
 
     .imagenBraian {
@@ -49,9 +50,13 @@
     }
 
     .imagenTrabajos {
-        margin: 20px 0;
+        margin: 40px 0;
         width: 100%;
         height: 300px;
+    }
+
+    hr {
+        color: $color-yellow;
     }
 
 }
@@ -78,9 +83,13 @@
     }
 
     .imagenTrabajos {
-        margin: 20px 0;
+        margin: 40px 0;
         width: 100%;
         height: 300px;
+    }
+
+    hr {
+        color: $color-yellow
     }
 
 }
@@ -91,7 +100,7 @@
         color: $color-yellow;
         font-family: $fuente;
         padding: 30px;
-        text-align: right;
+        text-align: left;
     }
 
     .imagenDaiana {
@@ -107,9 +116,13 @@
     }
 
     .imagenTrabajos {
-        margin: 20px 0;
+        margin: 40px 0;
         width: 100%;
         height: 300px;
+    }
+
+    hr{
+        color: $color-yellow;
     }
 
 }
@@ -138,7 +151,7 @@
     .imagenTrabajos {
         width: 100%;
         height: 300px;
-        margin: 20px 0 40px 0;
+        margin: 40px 0 40px 0;
     }
 
 }

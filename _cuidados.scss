@@ -2,8 +2,9 @@
 
 .cuidados.fondoEncabezadoCuidados {
     padding: 170px 0;
-    background: url(../img/imagenCuidados.jpg);
+    background: url(../img/imagenCuidados.jpg) no-repeat;
     background-position: -55px 50%;
+    background-size: 105%;
     position: relative;
     height: 300px;
 
@@ -17,7 +18,7 @@
 
         h1 {
             color: $color-yellow;
-            font-size: 60px;
+            font-size: 58px;
             font-family: $fuente;
             margin: 0 auto;
             text-align: center;

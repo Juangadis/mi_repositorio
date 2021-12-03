@@ -5,8 +5,9 @@
 .bienvenidos.fondoEncabezadoIndex {
 
     padding: 170px 0;
-    background: url(../img/imagenIndex.jpg);
+    background: url(../img/imagenIndex.jpg) no-repeat;
     background-position: 0 25%;
+    background-size: 100%;
     position: relative;
     height: 525px;
 
@@ -68,8 +69,9 @@
             font-family: $fuente;
             position: absolute;
             top: 10px;
-            left: 100px;
-            font-size: 30px;
+            left: 0;
+            right: 0;
+            font-size: 40px;
             color: $color-yellow;
             text-shadow: -1px -1px 1px  #000, 1px 1px 1px#000, -1px 1px 1px #000, 1px -1px 1px #000;
         }
