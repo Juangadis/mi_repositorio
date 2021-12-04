@@ -474,7 +474,6 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
   background-position: 0 45%;
   background-size: 100%;
   position: relative;
-  height: 300px;
 }
 
 .trabajos.fondoEncabezadoTrabajos .tituloTrabajos {
@@ -505,7 +504,6 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 
 .infoBraian .imagenBraian {
   width: 100%;
-  height: 500px;
 }
 
 .infoBraian p {
@@ -534,7 +532,6 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 
 .infoGabriel .imagenGabriel {
   width: 100%;
-  height: 500px;
 }
 
 .infoGabriel p {
@@ -563,7 +560,6 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 
 .infoDaiana .imagenDaiana {
   width: 100%;
-  height: 500px;
 }
 
 .infoDaiana p {
@@ -592,7 +588,6 @@ header .navbar-dark .navbar-nav .nav-link.colorLink.active {
 
 .infoJuan .imagenJuan {
   width: 100%;
-  height: 500px;
 }
 
 .infoJuan p {
@@ -925,7 +920,7 @@ footer .redes .logoRedes ul li:hover {
   .bienvenidos.fondoEncabezadoIndex, .elEstudio.fondoEncabezadoEstudio, .trabajos.fondoEncabezadoTrabajos, .cuidados.fondoEncabezadoCuidados, .contacto.fondoEncabezadoContacto {
     padding: 120px;
     height: 0;
-    background-size: auto;
+    background-position: 0;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloBienvenidos, .elEstudio.fondoEncabezadoEstudio .tituloBienvenidos, .trabajos.fondoEncabezadoTrabajos .tituloBienvenidos, .cuidados.fondoEncabezadoCuidados .tituloBienvenidos, .contacto.fondoEncabezadoContacto .tituloBienvenidos {
     top: 50%;
@@ -967,7 +962,7 @@ footer .redes .logoRedes ul li:hover {
     margin-top: 0;
   }
   .indexEstudio .textoIndexEstudio {
-    text-align: left;
+    text-align: center;
     font-size: 16px;
   }
   .indexEstudio .contenedorImagenIndexEstudio .imagenIndexEstudio {
@@ -992,6 +987,7 @@ footer .redes .logoRedes ul li:hover {
     -ms-grid-rows: (auto)[9];
         grid-template-rows: repeat(9, auto);
         grid-template-areas: "imagenUno" "imagenDos" "imagenTres" "imagenCuatro" "imagenCinco" "imagenSeis" "imagenSiete" "imagenOcho" "imagenNueve";
+    padding: 20px;
   }
   .indexTrabajos .gridPadre .imagenGaleria {
     -webkit-transition: none;
@@ -1020,7 +1016,10 @@ footer .redes .logoRedes ul li:hover {
     -ms-grid-column-align: center;
         justify-self: center;
   }
-  .pageEstudio .imagenCarrousel {
+  .pageEstudio .carousel {
+    padding: 20px;
+  }
+  .pageEstudio .carousel .imagenCarrousel {
     width: 100%;
     height: 400px;
   }
@@ -1034,15 +1033,24 @@ footer .redes .logoRedes ul li:hover {
   .pageEstudio .tituloPageEstudio {
     font-size: 32px;
     top: 0;
-    left: 80px;
+    left: 0;
+    right: 0;
+    text-align: center;
   }
   .pageEstudio .subtituloPageEstudio {
     top: 60px;
     text-align: center;
+    left: 0;
+    right: 0;
+    padding: 0 30px;
   }
   .pageEstudio .textoPageEstudio {
     font-size: 16px;
     width: 92%;
+    padding: 20px;
+  }
+  .pageEstudio .nuestroEquipo {
+    padding: 20px;
   }
   .pageEstudio .nuestroEquipo h4 {
     margin-top: -440px;
@@ -1052,15 +1060,26 @@ footer .redes .logoRedes ul li:hover {
   }
   .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo1, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo2, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo3, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo4 {
     margin-top: -425px;
+    padding: 20px;
+  }
+  .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo1 p, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo2 p, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo3 p, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo4 p {
+    top: 5%;
+    left: 8%;
   }
   .pageEstudio .higieneYseguridad .logo {
     display: none;
   }
   .pageEstudio .higieneYseguridad h5 {
     margin-top: -460px;
+    text-align: center;
+  }
+  .pageEstudio .higieneYseguridad h6 {
+    text-align: center;
   }
   .pageEstudio .higieneYseguridad p {
     font-size: 16px;
+    padding: 20px;
+    text-align: center;
   }
   .infoBraian .row, .infoGabriel .row, .infoDaiana .row, .infoJuan .row {
     display: block;
@@ -1068,14 +1087,25 @@ footer .redes .logoRedes ul li:hover {
   .infoBraian h2, .infoGabriel h2, .infoDaiana h2, .infoJuan h2 {
     text-align: center;
   }
+  .infoBraian .imagenBraian, .infoBraian .imagenGabriel, .infoBraian .imagenDaiana, .infoBraian .imagenJuan, .infoGabriel .imagenBraian, .infoGabriel .imagenGabriel, .infoGabriel .imagenDaiana, .infoGabriel .imagenJuan, .infoDaiana .imagenBraian, .infoDaiana .imagenGabriel, .infoDaiana .imagenDaiana, .infoDaiana .imagenJuan, .infoJuan .imagenBraian, .infoJuan .imagenGabriel, .infoJuan .imagenDaiana, .infoJuan .imagenJuan {
+    padding: 20px;
+  }
+  .infoBraian .imagenTrabajos, .infoGabriel .imagenTrabajos, .infoDaiana .imagenTrabajos, .infoJuan .imagenTrabajos {
+    padding: 0 20px;
+  }
   .infoBraian p, .infoGabriel p, .infoDaiana p, .infoJuan p {
     font-size: 16px;
+    text-align: center;
+    padding: 20px;
   }
   .infoCuidados p {
     font-size: 16px;
+    text-align: center;
+    padding: 20px;
   }
   .infoCuidados .cajaCuidados {
     margin: 30px 0;
+    padding: 20px;
   }
   .infoCuidados .imagenCuidados {
     display: none;
@@ -1113,7 +1143,8 @@ footer .redes .logoRedes ul li:hover {
 @media screen and (min-width: 480px) and (max-width: 780px) {
   .bienvenidos.fondoEncabezadoIndex, .elEstudio.fondoEncabezadoEstudio, .trabajos.fondoEncabezadoTrabajos, .cuidados.fondoEncabezadoCuidados, .contacto.fondoEncabezadoContacto {
     height: 300px;
-    background-size: auto;
+    height: 300px;
+    background-position: 0;
   }
   .bienvenidos.fondoEncabezadoIndex .tituloBienvenidos, .elEstudio.fondoEncabezadoEstudio .tituloBienvenidos, .trabajos.fondoEncabezadoTrabajos .tituloBienvenidos, .cuidados.fondoEncabezadoCuidados .tituloBienvenidos, .contacto.fondoEncabezadoContacto .tituloBienvenidos {
     top: 42%;
@@ -1141,6 +1172,12 @@ footer .redes .logoRedes ul li:hover {
     left: 0;
     right: 0;
   }
+  .indexEstudio .textoIndexEstudio {
+    padding: 20px;
+  }
+  .indexTrabajos .textoIndexTrabajo {
+    padding: 20px;
+  }
   .indexTrabajos .gridPadre {
     display: -ms-grid;
     display: grid;
@@ -1149,6 +1186,7 @@ footer .redes .logoRedes ul li:hover {
     -ms-grid-rows: auto auto auto auto auto;
         grid-template-rows: auto auto auto auto auto;
         grid-template-areas: "imagenUno imagenDos" "imagenTres imagenCuatro" "imagenCinco imagenSeis" "imagenSiete imagenOcho" "imagenNueve ImagenNueve";
+    padding: 20px;
   }
   .indexTrabajos .gridPadre .imagenGaleria {
     -webkit-transition: none;
@@ -1186,27 +1224,33 @@ footer .redes .logoRedes ul li:hover {
   }
   .pageEstudio .row > * {
     margin-top: 330px;
+    padding: 20px;
   }
   .pageEstudio .tituloPageEstudio {
     font-size: 32px;
     top: 0;
-    text-align: none;
-    left: 180px;
+    text-align: center;
+    left: 0;
+    right: 0;
   }
   .pageEstudio .subtituloPageEstudio {
     top: 60px;
-    left: 80px;
+    left: 0;
+    right: 0;
+    text-align: center;
   }
   .pageEstudio .textoPageEstudio {
     font-size: 16px;
-    text-align-last: center;
+    text-align: center;
     width: 92%;
+    padding: 20px;
   }
   .pageEstudio .nuestroEquipo h4 {
     margin-top: -350px;
   }
   .pageEstudio .nuestroEquipo p {
     font-size: 16px;
+    padding: 20px;
   }
   .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo1, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo2, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo3, .pageEstudio .nuestroEquipo .equipoTatuadores .contenedorEquipo4 {
     margin-top: -325px;
@@ -1224,12 +1268,29 @@ footer .redes .logoRedes ul li:hover {
   .pageEstudio .higieneYseguridad p {
     font-size: 16px;
     text-align: center;
+    padding: 20px;
+  }
+  .infoBraian .imagenBraian, .infoBraian .imagenGabriel, .infoBraian .imagenDaiana, .infoBraian .imagenJuan, .infoGabriel .imagenBraian, .infoGabriel .imagenGabriel, .infoGabriel .imagenDaiana, .infoGabriel .imagenJuan, .infoDaiana .imagenBraian, .infoDaiana .imagenGabriel, .infoDaiana .imagenDaiana, .infoDaiana .imagenJuan, .infoJuan .imagenBraian, .infoJuan .imagenGabriel, .infoJuan .imagenDaiana, .infoJuan .imagenJuan {
+    padding: 20px;
+  }
+  .infoBraian .imagenTrabajos, .infoGabriel .imagenTrabajos, .infoDaiana .imagenTrabajos, .infoJuan .imagenTrabajos {
+    padding: 0 20px;
   }
   .infoBraian .row, .infoGabriel .row, .infoDaiana .row, .infoJuan .row {
     display: block;
   }
   .infoBraian h2, .infoGabriel h2, .infoDaiana h2, .infoJuan h2 {
     text-align: center;
+  }
+  .infoBraian p, .infoGabriel p, .infoDaiana p, .infoJuan p {
+    padding: 20px;
+    text-align: center;
+  }
+  .infoCuidados p {
+    padding: 20px;
+  }
+  .infoCuidados .cajaCuidados {
+    padding: 20px;
   }
   .infoCuidados .imagenCuidados {
     display: -webkit-box;
@@ -1241,12 +1302,17 @@ footer .redes .logoRedes ul li:hover {
         -ms-flex: auto;
             flex: auto;
     margin: 30px 0;
+    padding: 20px;
   }
   .infoCuidados .logo {
     display: none;
   }
+  .infoContacto p {
+    padding: 20px;
+  }
   .infoContacto .cardFormulario {
     width: 100%;
+    padding: 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */

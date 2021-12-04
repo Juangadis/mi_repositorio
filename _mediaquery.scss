@@ -3,7 +3,7 @@
     .bienvenidos.fondoEncabezadoIndex, .elEstudio.fondoEncabezadoEstudio, .trabajos.fondoEncabezadoTrabajos, .cuidados.fondoEncabezadoCuidados, .contacto.fondoEncabezadoContacto{
         padding: 120px;
         height: 0;
-        background-size: auto;
+        background-position: 0;
 
         .tituloBienvenidos {
             top: 50%;
@@ -54,6 +54,7 @@
             }
 
         }
+
     }
 
     .indexEstudio{
@@ -62,7 +63,7 @@
         }
 
         .textoIndexEstudio{
-            text-align: left;
+            text-align: center;
             font-size: 16px;
         }
 
@@ -103,6 +104,7 @@
                 "imagenOcho"
                 "imagenNueve"
             ;
+            padding: 20px;
 
             .imagenGaleria{
 
@@ -145,9 +147,13 @@
 
     .pageEstudio {
 
-        .imagenCarrousel{
-            width: 100%;
-            height: 400px;
+        .carousel {
+            padding: 20px;
+
+            .imagenCarrousel{
+                width: 100%;
+                height: 400px;
+            }
         }
 
         .row{
@@ -162,20 +168,27 @@
         .tituloPageEstudio {
             font-size: 32px;
             top: 0;
-            left: 80px;
+            left: 0;
+            right: 0;
+            text-align: center;
         }
     
         .subtituloPageEstudio {
             top: 60px;
             text-align: center;
+            left: 0;
+            right: 0;
+            padding: 0 30px;
         }
     
         .textoPageEstudio{
             font-size: 16px;
             width: 92%;
+            padding: 20px;
         }
 
         .nuestroEquipo {
+            padding: 20px;
             h4 {
                 margin-top: -440px;
             }
@@ -188,11 +201,13 @@
                 
                 .contenedorEquipo1, .contenedorEquipo2, .contenedorEquipo3, .contenedorEquipo4 {
                     margin-top: -425px;
+                    padding: 20px;
+
+                    p{
+                        top: 5%;
+                        left: 8%;
+                    }
                 }
-
-
-
-
             }
         }
 
@@ -204,10 +219,17 @@
 
             h5 {
                 margin-top: -460px;
+                text-align: center;
+            }
+
+            h6 {
+                text-align: center;
             }
 
             p {
                 font-size: 16px;
+                padding: 20px;
+                text-align: center;
             }
         }
 
@@ -222,8 +244,18 @@
             text-align: center;
         }
 
+        .imagenBraian, .imagenGabriel, .imagenDaiana, .imagenJuan {
+            padding: 20px;
+        }
+
+        .imagenTrabajos { 
+            padding:0 20px;
+        }
+
         p{
             font-size: 16px;
+            text-align: center;
+            padding: 20px;
         }
 
     }
@@ -232,10 +264,13 @@
 
         p{
             font-size: 16px;
+            text-align: center;
+            padding: 20px;
         }
 
         .cajaCuidados {
             margin: 30px 0;
+            padding: 20px;
         }
 
         .imagenCuidados {
@@ -289,7 +324,8 @@
 @media screen and (min-width: 480px) and (max-width: 780px){
     .bienvenidos.fondoEncabezadoIndex, .elEstudio.fondoEncabezadoEstudio, .trabajos.fondoEncabezadoTrabajos, .cuidados.fondoEncabezadoCuidados, .contacto.fondoEncabezadoContacto{
         height: 300px;
-        background-size: auto;
+        height: 300px;
+        background-position: 0;
 
         .tituloBienvenidos{
             top: 42%;
@@ -328,9 +364,16 @@
                 right: 0;
             }
         }
+
+        .textoIndexEstudio{
+            padding: 20px;
+        }
     }
 
     .indexTrabajos{
+        .textoIndexTrabajo{
+            padding: 20px;
+        }
 
         .gridPadre {
             display: grid;
@@ -343,6 +386,7 @@
                 "imagenSiete imagenOcho"
                 "imagenNueve ImagenNueve"
             ;
+            padding: 20px;
 
             .imagenGaleria{
                 transition: none;
@@ -393,25 +437,30 @@
 
             &>* {
                 margin-top: 330px;
+                padding: 20px;
             }
         }
 
         .tituloPageEstudio {
             font-size: 32px;
             top: 0;
-            text-align: none;
-            left: 180px;
+            text-align: center;
+            left: 0;
+            right: 0;
         }
     
         .subtituloPageEstudio {
             top: 60px;
-            left: 80px;
+            left: 0;
+            right: 0;
+            text-align: center;
         }
     
         .textoPageEstudio{
             font-size: 16px;
-            text-align-last: center;
+            text-align: center;
             width: 92%;
+            padding: 20px;
         }
 
         .nuestroEquipo {
@@ -421,6 +470,7 @@
 
             p {
                 font-size: 16px;
+                padding: 20px;
             }
 
             .equipoTatuadores {
@@ -449,12 +499,22 @@
             p {
                 font-size: 16px;
                 text-align: center;
+                padding: 20px;
             }
         }
 
     }
 
     .infoBraian, .infoGabriel, .infoDaiana, .infoJuan {
+
+        .imagenBraian, .imagenGabriel, .imagenDaiana, .imagenJuan {
+            padding: 20px;
+        }
+        
+        .imagenTrabajos{
+            padding: 0 20px;
+        }
+
         .row{
             display: block;
         }
@@ -463,15 +523,29 @@
             text-align: center;
         }
 
+        p{
+            padding: 20px;
+            text-align: center;
+        }
+
     }
 
     .infoCuidados {
+        p{
+            padding: 20px;
+        }
+
+        .cajaCuidados{
+            padding: 20px;
+        }
+
         .imagenCuidados {
             display: flex;
 
             .imgInfoCuidados {
                 flex: auto;
                 margin: 30px 0;
+                padding: 20px;
             }
         }
 
@@ -481,8 +555,14 @@
     }
 
     .infoContacto {
+
+        p{
+            padding: 20px;
+        }
+
         .cardFormulario{
             width: 100%;
+            padding: 20px;
         }
     }
 
